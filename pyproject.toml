@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=42", "wheel", "torch"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hypertext"
+version = "0.2.0"
+description = "Enterprise-Grade High-Performance NLP Framework"
+readme = "README.md"
+requires-python = ">=3.8"
+license = {text = "MIT"}
+authors = [
+    {name = "Your Name", email = "your.email@example.com"}
+]
+dependencies = [
+    "torch>=2.0.0",
+    "transformers>=4.30.0",
+    "numpy"
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["hypertext*"]
