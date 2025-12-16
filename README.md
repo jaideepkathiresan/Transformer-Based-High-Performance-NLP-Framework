@@ -54,13 +54,5 @@ python examples/generate_demo.py
 ```bash
 python benchmarks/benchmark_speed.py
 ```
-
-## Design Philosophy
-This project demonstrates:
-1.  **Low-Level Systems Programming**: Ability to write custom extensions for PyTorch.
-2.  **Algorithm Optimization**: Understanding of Cache Tiling and Kernel Fusion.
-3.  **Modern AI Architectures**: Implementation of RoPE, SwiGLU, and MoE from papers, not just using HuggingFace `AutoModel`.
-4.  **Software Engineering**: Modular design, separation of concerns (Ops vs Layers vs Models), and robust build tooling.
-
 ---
 *Built using PyTorch & C++*
